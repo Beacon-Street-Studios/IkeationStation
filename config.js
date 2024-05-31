@@ -8,7 +8,7 @@ config.defaultPlaybackRate = 1.2;
 config.voices = [
     {image: 'melody.png', file: 'bss_ikea_ikeation_music_', count:30, time: 1.45, velocity: 0.8, y: 40}, 
     {image: 'music.png', file: 'bss_ikea_ikeation_melody_', count:30, time: 1.45, velocity: 0.8, y: 326},  
-    {image: 'drum.png', file: 'bss_mikea_ikeation_sting_', count:30, time: 1.45, velocity: 0.8, y: 559},
+    {image: 'drum.png', file: 'bss_ikea_ikeation_sting_', count:30, time: 1.45, velocity: 0.8, y: 559},
     {image: 'voice.png', file: 'bss_ikea_ikeation_voice_', count:30, time: 1.45, velocity: 0.8, y: 825},
     {image: 'jaha.png', file: 'bss_ikea_ikeation_sting_', count:30, min:[0.0,2.3], max:[0.6,3.2]}
 ];
