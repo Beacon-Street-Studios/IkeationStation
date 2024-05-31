@@ -6,11 +6,11 @@ config.defaultPlaybackRate = 1.2;
 
 // seconds as min/max bounds, min default 0, max default config.duration
 config.voices = [
-    {image: 'melody.png', file: 'bss_ikea_ikeation_melody_', count:30, time: 1.45, velocity: 0.8, y: 40}, 
-    {image: 'music.png', file: 'bss_ikea_ikeation_music_', count:30, time: 1.45, velocity: 0.8, y: 326},  
-    {image: 'drum.png', file: 'bss_ikea_ikeation_drum_', count:30, time: 1.45, velocity: 0.8, y: 559},
-    {image: 'voice.png', file: 'bss_ikea_ikeation_voice_', count:30, time: 1.45, velocity: 0.8, y: 825},
-    {image: 'jaha.png', file: 'bss_ikea_ikeation_jaha_', count:30, min:[0.0,2.3], max:[0.6,3.2]}
+    {image: 'melody.png', file: 'bss_ikea_ikeation_melody_', count:10, time: 1.45, velocity: 0.8, y: 40}, 
+    {image: 'music.png', file: 'bss_ikea_ikeation_music_', count:10, time: 1.45, velocity: 0.8, y: 326},  
+    {image: 'drum.png', file: 'bss_ikea_ikeation_drum_', count:10, time: 1.45, velocity: 0.8, y: 559},
+    {image: 'voice.png', file: 'bss_ikea_ikeation_voice_', count:10, time: 1.45, velocity: 0.8, y: 825},
+    {image: 'jaha.png', file: 'bss_ikea_ikeation_jaha_', count:10, min:[0.0,2.3], max:[0.6,3.2]}
 ];
 
 config.voiceCount = config.voices.length;
